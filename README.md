@@ -8,7 +8,7 @@ Copyright (C) 2003-2020 - The Authors
 
 This program is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
-Free Software Foundation, either version 3 of the License, or (at your
+Free Software Foundation; either version 2 of the License, or (at your
 option) any later version.
 
 This program is distributed in the hope that it will be useful, but
@@ -17,8 +17,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
-with this program.  If not, see
-[http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
+with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
 # Documentation
 
@@ -39,7 +38,7 @@ cmake .
 make
 ```
 
-_The SIPp master branch (3.7.x) requires a modern C++11 compiler._
+_The SIPp master branch (3.7.x) requires a modern C++17 compiler._
 
 There are several optional flags to enable features (SIP-over-TLS,
 SIP-over-SCTP, media playback from PCAP files and the GNU Scientific
